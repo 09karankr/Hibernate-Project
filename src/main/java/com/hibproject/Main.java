@@ -9,9 +9,9 @@ public class Main {
     public static void main(String[] args) {
 
         Student s1 = new Student();
-        s1.setsName("Karan");
-        s1.setRollNo(101);
-        s1.setsAge(22);
+        s1.setsName("Gaurav");
+        s1.setRollNo(105);
+        s1.setsAge(76);
 
         Configuration cfg = new Configuration();
         cfg.addAnnotatedClass(com.hibproject.Student.class);
